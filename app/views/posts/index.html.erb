@@ -1,0 +1,23 @@
+<header>
+      <div class="header-logo">
+        <a href="/home/top">testapp</a>
+      </div>
+       <div class="header-menu">
+        <a href="/posts/index">一覧</a>
+      </div>
+</header>
+
+
+
+<h1>あいさつ一覧</h1>
+<div>
+ 
+    <% @posts.each do |post| %>
+    <div class = "posts_list">
+    
+        <%= post.name %>
+        <%= post.content %>
+    </div>
+    <% end %>
+    
+</div>

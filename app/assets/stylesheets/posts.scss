@@ -1,0 +1,29 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.posts_list {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+     text-align: center;
+}
+
+header {
+  height: 64px;
+  position: absolute;
+  width: 100%;
+}
+
+.header-logo {
+    float: left;
+}
+
+.header-menu {
+    float: right;
+}
